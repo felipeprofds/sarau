@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação Sarau - E.E. Carolina Cintra da Silveira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Votação - Melhor Apresentação</h1>
+        <p>Escolha sua apresentação favorita!</p>
+    </header>
+
+    <div class="container">
+        <div class="presentation" id="presentation1">
+            <h3>Apresentação 1: Música ao Vivo</h3>
+            <button class="vote-btn" id="vote-btn-1" onclick="votar(1)">Votar</button>
+            <span id="votes1">Votos: 0</span>
+        </div>
+
+        <div class="presentation" id="presentation2">
+            <h3>Apresentação 2: Dança Moderna</h3>
+            <button class="vote-btn" id="vote-btn-2" onclick="votar(2)">Votar</button>
+            <span id="votes2">Votos: 0</span>
+        </div>
+
+        <div class="presentation" id="presentation3">
+            <h3>Apresentação 3: Poema Recitado</h3>
+            <button class="vote-btn" id="vote-btn-3" onclick="votar(3)">Votar</button>
+            <span id="votes3">Votos: 0</span>
+        </div>
+    </div>
+
+    <div id="feedback" class="feedback"></div>
+
+    <footer>
+        <p>&copy; 2025 Sarau E.E. Carolina Cintra da Silveira</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
